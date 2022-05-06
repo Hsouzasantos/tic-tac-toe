@@ -14,19 +14,19 @@
         <div class="container">
                 <h1 class="title">Tic Tac Toe</h1>
                 <div class="line">
-                        <div id="1" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="2" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="3" class="square" onClick="selectSquare(this.id)"></div>
+                        <div id="1" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="2" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="3" class="square" onClick="selectSquare(this.id)">-</div>
                 </div>
                 <div class="line">
-                        <div id="4" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="5" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="6" class="square" onClick="selectSquare(this.id)"></div>
+                        <div id="4" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="5" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="6" class="square" onClick="selectSquare(this.id)">-</div>
                 </div>
                 <div class="line">
-                        <div id="7" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="8" class="square" onClick="selectSquare(this.id)"></div>
-                        <div id="9" class="square" onClick="selectSquare(this.id)"></div>
+                        <div id="7" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="8" class="square" onClick="selectSquare(this.id)">-</div>
+                        <div id="9" class="square" onClick="selectSquare(this.id)">-</div>
                 </div>
                 <div class="containerPlayers">
                         <label id="players">Player: </label>
@@ -36,9 +36,9 @@
                         <label id="winner">Winner: </label>
                         <label id="selectWinner"></label>
                 </div>
-                <button class="button">
-            Reset
-        </button>
+                <button class="button" onclick="reset()">
+                        Reset
+                </button>
         </div>
 </body>
 <script src="./script/main.js"></script>
